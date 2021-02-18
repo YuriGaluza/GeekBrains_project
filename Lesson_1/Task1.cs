@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Level_1
+namespace Level_1.Lesson_1
 {
     class Task1
     {
