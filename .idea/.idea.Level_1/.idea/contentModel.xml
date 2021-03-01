@@ -19,6 +19,12 @@
       <e p="Lesson_4" t="Include">
         <e p="Task4.cs" t="Include" />
       </e>
+      <e p="Lesson_5" t="Include">
+        <e p="bytes.bin" t="Include" />
+        <e p="data.txt" t="Include" />
+        <e p="startup.txt" t="Include" />
+        <e p="Task5.cs" t="Include" />
+      </e>
       <e p="Level_1.csproj" t="IncludeRecursive" />
       <e p="Level_1.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive">

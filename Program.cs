@@ -3,6 +3,7 @@ using Level_1.Lesson_1;
 using Level_1.Lesson_2;
 using Level_1.Lesson_3;
 using Level_1.Lesson_4;
+using Level_1.Lesson_5;
 
 namespace Level_1
 {
@@ -26,13 +27,18 @@ namespace Level_1
             // task3.ReverseString("Hello");
             // task3.BattleShip();
 
-            Task4 task4 = new Task4();
-            task4.GetFullName("Путин", "Владимир", "Владимирович");
-            task4.GetFullName("Келдыш", "Мстислав", "Всеволодович");
-            task4.GetFullName("Крамник", "Владимир", "Борисович");
-            task4.SumOfNumbersFromString("1 2 3 4");
-            task4.GetSeasonByMonthNumber();
-            task4.ShowFibonacciNumber();
+            // Task4 task4 = new Task4();
+            // task4.GetFullName("Путин", "Владимир", "Владимирович");
+            // task4.GetFullName("Келдыш", "Мстислав", "Всеволодович");
+            // task4.GetFullName("Крамник", "Владимир", "Борисович");
+            // task4.SumOfNumbersFromString("1 2 3 4");
+            // task4.GetSeasonByMonthNumber();
+            // task4.ShowFibonacciNumber();
+
+            Task5 task5 = new Task5();
+            task5.SaveDataToTextFile();
+            task5.SaveCurrentTimeToTextFile();
+            task5.SaveNumberSetInBinaryFile();
         }
     }
 }
