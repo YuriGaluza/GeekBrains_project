@@ -22,12 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4563ead-996e-4a88-8580-3ed18bc36aca" name="Default Changelist" comment="18.02">
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Task5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Level_1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Level_1/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="e4563ead-996e-4a88-8580-3ed18bc36aca" name="Default Changelist" comment="ДЗ-5 от 01.03.21">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Level_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Level_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +48,8 @@
         <option value="$PROJECT_DIR$/Lesson5/Task5.cs" />
         <option value="$PROJECT_DIR$/Lesson_5/startup.txt" />
         <option value="$PROJECT_DIR$/Lesson_5/data.txt" />
-        <option value="$PROJECT_DIR$/Lesson_5/Task5.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Lesson_5/Task5.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +102,7 @@
       <workItem from="1614515981921" duration="402000" />
       <workItem from="1614519625137" duration="9520000" />
       <workItem from="1614615643368" duration="1712000" />
-      <workItem from="1614618635215" duration="858000" />
+      <workItem from="1614618635215" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="changed 18.02">
       <created>1613589941873</created>
@@ -122,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613634177142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ДЗ-5 от 01.03.21">
+      <created>1614619707454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614619707454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +133,9 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bin" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -146,29 +152,30 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="changed 18.02" />
     <MESSAGE value="18.02" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.02" />
+    <MESSAGE value="ДЗ-5 от 01.03.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ-5 от 01.03.21" />
   </component>
   <component name="WindowStateProjectService">
     <state width="420" height="464" key="DebuggerActiveHint" timestamp="1613631612466">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="420" height="464" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1613631612466" />
-    <state width="1329" height="206" key="GridCell.Tab.0.bottom" timestamp="1614619005694">
+    <state width="1329" height="206" key="GridCell.Tab.0.bottom" timestamp="1614620010837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1329" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1614619005694" />
-    <state width="1329" height="206" key="GridCell.Tab.0.center" timestamp="1614619005694">
+    <state width="1329" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1614620010837" />
+    <state width="1329" height="206" key="GridCell.Tab.0.center" timestamp="1614620010837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1329" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1614619005694" />
-    <state width="1329" height="206" key="GridCell.Tab.0.left" timestamp="1614619005694">
+    <state width="1329" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1614620010837" />
+    <state width="1329" height="206" key="GridCell.Tab.0.left" timestamp="1614620010837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1329" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1614619005694" />
-    <state width="1329" height="206" key="GridCell.Tab.0.right" timestamp="1614619005694">
+    <state width="1329" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1614620010837" />
+    <state width="1329" height="206" key="GridCell.Tab.0.right" timestamp="1614620010837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1329" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1614619005694" />
+    <state width="1329" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1614620010837" />
     <state width="1340" height="283" key="GridCell.Tab.1.bottom" timestamp="1613634450909">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -245,10 +252,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="120" y="120" width="1200" height="620" key="VCS.FileHistoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1613591535847" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1613634180049">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1614619715929">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613634180049" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1614619715929" />
     <state x="383" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1613590743699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
