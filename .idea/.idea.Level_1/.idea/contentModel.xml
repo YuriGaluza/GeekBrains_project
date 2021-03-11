@@ -25,6 +25,14 @@
         <e p="startup.txt" t="Include" />
         <e p="Task5.cs" t="Include" />
       </e>
+      <e p="Lesson_6" t="Include">
+        <e p="catalog_tree.txt" t="Include" />
+        <e p="Employee.cs" t="Include" />
+        <e p="MyArraySizeException.cs" t="Include" />
+        <e p="Task6.cs" t="Include" />
+        <e p="tasks.json" t="Include" />
+        <e p="ToDo.cs" t="Include" />
+      </e>
       <e p="Level_1.csproj" t="IncludeRecursive" />
       <e p="Level_1.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive">
