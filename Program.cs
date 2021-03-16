@@ -6,6 +6,7 @@ using Level_1.Lesson_3;
 using Level_1.Lesson_4;
 using Level_1.Lesson_5;
 using Level_1.Lesson_6;
+using Level_1.Lesson_7;
 
 namespace Level_1
 {
@@ -42,66 +43,68 @@ namespace Level_1
             // task5.SaveCurrentTimeToTextFile();
             // task5.SaveNumberSetInBinaryFile();
 
-            Task6 task6 = new Task6(new List<ToDo>(), new List<Employee>());
+            //Task6 task6 = new Task6(new List<ToDo>(), new List<Employee>());
             //task6.SaveCatalogsTree();
             //task6.GetDirectoryTree();
 
-            List<ToDo> toDos = new List<ToDo>();
-            toDos.Add(new ToDo("Make task1", false, 1));
-            toDos.Add(new ToDo("Make task2", false, 2));
-            toDos.Add(new ToDo("Make task3", false, 3));
-            toDos.Add(new ToDo("Make task4", false, 4));
-            toDos.Add(new ToDo("Make task5", false, 5));
-            task6.SerializeToDoListToJson(toDos);
-            task6.GetToDoListFromJson();
-            
-            task6.ChangeIsDoneStatusInToDoList();
-            task6.SerializeToDoListToJson(task6.ToDoList1);
-            task6.GetToDoListFromJson();
-            
-            task6.ChangeIsDoneStatusInToDoList();
-            task6.SerializeToDoListToJson(task6.ToDoList1);
-            task6.GetToDoListFromJson();
+            // List<ToDo> toDos = new List<ToDo>();
+            // toDos.Add(new ToDo("Make task1", false, 1));
+            // toDos.Add(new ToDo("Make task2", false, 2));
+            // toDos.Add(new ToDo("Make task3", false, 3));
+            // toDos.Add(new ToDo("Make task4", false, 4));
+            // toDos.Add(new ToDo("Make task5", false, 5));
+            // task6.SerializeToDoListToJson(toDos);
+            // task6.GetToDoListFromJson();
 
-            string[,] correctArr =
-            {
-                {"1", "2", "3", "4"},
-                {"0", "0", "0", "0"},
-                {"0", "0", "0", "0"},
-                {"1", "2", "3", "4"}
-            };
-            string[,] wrongArr1 =
-            {
-                {"0", "0", "0"},
-                {"0", "0", "0"},
-                {"0", "0", "0"},
-                {"0", "0", "0"}
-            };
-            string[,] wrongArr2 =
-            {
-                {"1", "2", "3", "d"},
-                {"0", "0", "0", "0"},
-                {"0", "0", "0", "0"},
-                {"1", "2", "3", "4"}
-            };
-            task6.ExecuteSumOfArrayElements(correctArr);
-            task6.ExecuteSumOfArrayElements(wrongArr1);
-            task6.ExecuteSumOfArrayElements(wrongArr2);
-            
-            task6.EmployeeList1 = new List<Employee>(new Employee[]
-            {
-                new Employee("Buster", "Douglas", "", "manager",
-                    "bust@mail.ru", "25-65-65", 21.55, 24),
-                new Employee("Ron", "Jeremy", "", "programmer",
-                    "ronny@yandex.ru", "54-43-76", 65.50, 50),
-                new Employee("Chloe", "Michaels", "", "actress",
-                    "ChoeMich@yahoo.com", "67-87-98", 65.64, 21),
-                new Employee("Mike", "Tyson", "", "boxer",
-                    "ironmike@gmail.com", "23-54-63", 256.29, 34),
-                new Employee("Paul", "Anderson", "", "director",
-                    "panderson@rambler.ru", "72-47-08", 208.51, 56),
-            });
-            task6.GetEmployeesByAge(40);
+            // task6.ChangeIsDoneStatusInToDoList();
+            // task6.SerializeToDoListToJson(task6.ToDoList1);
+            // task6.GetToDoListFromJson();
+
+            // task6.ChangeIsDoneStatusInToDoList();
+            // task6.SerializeToDoListToJson(task6.ToDoList1);
+            // task6.GetToDoListFromJson();
+            //
+            // string[,] correctArr =
+            // {
+            //     {"1", "2", "3", "4"},
+            //     {"0", "0", "0", "0"},
+            //     {"0", "0", "0", "0"},
+            //     {"1", "2", "3", "4"}
+            // };
+            // string[,] wrongArr1 =
+            // {
+            //     {"0", "0", "0"},
+            //     {"0", "0", "0"},
+            //     {"0", "0", "0"},
+            //     {"0", "0", "0"}
+            // };
+            // string[,] wrongArr2 =
+            // {
+            //     {"1", "2", "3", "d"},
+            //     {"0", "0", "0", "0"},
+            //     {"0", "0", "0", "0"},
+            //     {"1", "2", "3", "4"}
+            // };
+            //task6.ExecuteSumOfArrayElements(correctArr);
+            //task6.ExecuteSumOfArrayElements(wrongArr1);
+            //task6.ExecuteSumOfArrayElements(wrongArr2);
+
+            //task6.EmployeeList1 = new List<Employee>(new Employee[]
+            //{
+            //     new Employee("Buster", "Douglas", "", "manager",
+            //         "bust@mail.ru", "25-65-65", 21.55, 24),
+            //     new Employee("Ron", "Jeremy", "", "programmer",
+            //         "ronny@yandex.ru", "54-43-76", 65.50, 50),
+            //     new Employee("Chloe", "Michaels", "", "actress",
+            //         "ChoeMich@yahoo.com", "67-87-98", 65.64, 21),
+            //     new Employee("Mike", "Tyson", "", "boxer",
+            //         "ironmike@gmail.com", "23-54-63", 256.29, 34),
+            //     new Employee("Paul", "Anderson", "", "director",
+            //         "panderson@rambler.ru", "72-47-08", 208.51, 56),
+            //});
+            //task6.GetEmployeesByAge(40);
+
+            (new CrossAndZero()).StartGame();
         }
     }
 }

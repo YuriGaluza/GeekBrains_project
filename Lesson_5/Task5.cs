@@ -64,7 +64,7 @@ namespace Level_1.Lesson_5
             }
             catch (Exception e)
             {
-                Console.WriteLine("Введите набор целых чисел через пробел");
+                Console.WriteLine("Введите набор целых чисел через пробел", e);
             }
 
             byte[] numberArray = new byte[numbers.Length];

@@ -165,7 +165,7 @@ namespace Level_1.Lesson_6
             }
             catch (FormatException e)
             {
-                Console.WriteLine("Элементы массива должны быть типа int");
+                Console.WriteLine("Элементы массива должны быть типа int", e);
             }
         }
 
