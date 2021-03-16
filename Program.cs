@@ -104,7 +104,8 @@ namespace Level_1
             //});
             //task6.GetEmployeesByAge(40);
 
-            (new CrossAndZero()).StartGame();
+            //new CrossAndZero().StartGame();
+            new Task7().StartApp();
         }
     }
 }
