@@ -7,6 +7,8 @@ using Level_1.Lesson_4;
 using Level_1.Lesson_5;
 using Level_1.Lesson_6;
 using Level_1.Lesson_7;
+using Level_1.Lesson_8;
+using Level_1.Hello;
 
 namespace Level_1
 {
@@ -105,7 +107,12 @@ namespace Level_1
             //task6.GetEmployeesByAge(40);
 
             //new CrossAndZero().StartGame();
-            new Task7().StartApp();
+            //new Task7().StartApp();
+
+            //TaskManager taskManager = new TaskManager();
+            //taskManager.run();
+            HelloUser helloUser = new HelloUser();
+            helloUser.helloUser();
         }
     }
 }
